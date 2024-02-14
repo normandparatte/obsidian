@@ -1,13 +1,15 @@
 ---
 share: "true"
+tags:
+  - Développement
+  - Informatique
+  - Vuejs
 ---
-#Développement #Informatique #Vuejs
-
 Créer une application monopage avec Vue + Vue Router est vraiment simple. Avec Vue.js, nous concevons déjà notre application avec des composants. En ajoutant vue-router dans notre application, tout ce qu'il nous reste à faire est de relier nos composants aux routes, et de laisser vue-router faire le rendu.
 
 Tutoriel : https://v3.router.vuejs.org/fr/guide/#javascript (provenant de la version anglaise du tuto : https://router.vuejs.org/guide/)
 
-## Installation
+## Installation du routeur
 
 ```
 npm install vue-router
