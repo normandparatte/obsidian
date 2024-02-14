@@ -5,8 +5,8 @@ site_author: Normand Paratte
 
 theme:
     name: 'material'
-    logo: assets/meta/favicons.png
-    favicon: assets/meta/favicons.png
+    logo: assets/meta/logo.png
+    favicon: assets/meta/favicon.ico
     custom_dir: overrides
     font:
         text: Ubuntu
