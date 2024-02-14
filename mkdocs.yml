@@ -1,5 +1,5 @@
-site_name: Notes Obsidian # Change this to your site name
-site_description: Site de mes notes obsidian publiées
+site_name: Obsidian Dev # Change this to your site name
+site_description: Apprenez, codez et partagez !
 site_url: https://normandparatte.github.io/obsidian/ # Change this to your site URL
 site_author: Normand Paratte
 
@@ -17,8 +17,8 @@ theme:
     # Light mode
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: teal
-      accent: light blue
+      primary: #673bbe
+      accent: #8a4fff
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
@@ -26,8 +26,8 @@ theme:
     # Dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: blue
-      accent: indigo
+      primary: #673bbe
+      accent: #8a4fff
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
