@@ -81,11 +81,8 @@ La commande ci-dessous permet de récupérer une copie d'un dépôt Git distant.
 git clone adresseDuRepo
 ```
 Cette commande correspond à :
-
 -          Git init
-
 -          Git remote add origin Adresse
-
 -          Git pull origin master
 
 ### Ajout des fichiers dans la staging area (fichiers à commit)
@@ -150,7 +147,7 @@ Cette commande intègre les modifications de master dans **tous les commit** de 
 
 ![[Pasted image 20240215213358.png|Pasted image 20240215213358.png]]
 
-##### Git Merge vs Git Rebase
+#### Git Merge vs Git Rebase
 En général, il est recommandé d'utiliser git merge pour les situations suivantes :
 ```
 Lorsque vous souhaitez conserver l'historique complet du projet. Le merge crée un commit de fusion qui enregistre les modifications apportées par les deux branches. Cela permet de suivre l'historique des modifications au fil du temps.

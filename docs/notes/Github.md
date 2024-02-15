@@ -25,23 +25,15 @@ Les pulls requests permettent de dire aux autres que vos changements ont été p
 Une fois qu’un pull request est ouvert, il est possible de discuter, de revoir de potentielles modifications avec les collaborateurs et ajouter des commits de suivis avant de fusionner (merge) les changements dans le repository.
 
 ### Github flow
-
 ![[Pasted image 20240215213453.png|Pasted image 20240215213453.png]]
 
--          Tout ce qui est dans le **master est déployable**
-
--          Tous les nouveaux développements, fix, et évolutions sont créés dans des nouvelles **branches distinctes**.
-
--          Ces branches ont des **noms explicites** pour que les autres sachent sur quoi on travaille (ex: refactor-authentication, make-retina-avatars)
-
--          **Commitez régulièrement** sur cette branche localement et poussez votre travail sur la même branche sur le remote
-
--          Lorsque vous avez besoin de feedback ou d’aide, ou que vous pensez que la branche est prête à être intégrée, ouvrez un **pull request**
-
--          Lorsque quelqu’un d’autre a **validé votre travail**, vous pouvez **l’intégrer au master**
-
--          Lorsqu’elle est mergée et poussée sur ‘master’, elle sera déployée tout de suite
+- Tout ce qui est dans le **master est déployable**
+- Tous les nouveaux développements, fix, et évolutions sont créés dans des nouvelles **branches distinctes**.
+- Ces branches ont des **noms explicites** pour que les autres sachent sur quoi on travaille (ex: refactor-authentication, make-retina-avatars
+- **Commitez régulièrement** sur cette branche localement et poussez votre travail sur la même branche sur le remote
+- Lorsque vous avez besoin de feedback ou d’aide, ou que vous pensez que la branche est prête à être intégrée, ouvrez un **pull request**
+- Lorsque quelqu’un d’autre a **validé votre travail**, vous pouvez **l’intégrer au master**
+- Lorsqu’elle est mergée et poussée sur ‘master’, elle sera déployée tout de suite
 
 ## Markdown (.md)
-
 Les documentations des projets sont écrites en langage Markdown (fichiers .md). Ces fichiers ont l'avantage d'être facilement compréhensibles même sans intérpréteur. Ce document en question est réalisé en Markdown.
