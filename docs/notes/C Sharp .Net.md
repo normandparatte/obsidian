@@ -17,7 +17,6 @@ Visual Basic .NET peut être un bon point de départ. C# est un langage plus pui
 C# dispose d'une vaste communauté et de nombreuses ressources en ligne, tandis que les autres langages peuvent avoir une communauté plus restreinte.
 
 #### Autres plateformes
-
 Il est possible d'utiliser d'autres plateforme en C# tel que **Mono**, **Unity**, **Xamarin**, **JavaScript**, etc.
 **Mono** est une implémentation open-source de .NET qui fonctionne sur plusieurs plateformes, notamment Windows, macOS, Linux, Android et iOS. 
 **Unity** est un moteur de jeu multi-plateforme qui permet de développer des jeux en C#.
@@ -25,7 +24,6 @@ Il est possible d'utiliser d'autres plateforme en C# tel que **Mono**, **Unity**
 Il est possible d'utiliser C# pour générer du code **JavaScript**.
 
 ## interface graphique
-
 Pour les interfaces graphiques dans .NET, il y a plusieurs options. Attention toutes les interfaces ne sont pas disponibles pour tous les langages.
 
 ### Windows Forms
@@ -49,13 +47,11 @@ Pour les interfaces graphiques dans .NET, il y a plusieurs options. Attention to
 - **Inconvénients:** Technologie relativement nouvelle, communauté moins large que les autres options.
 
 ## Base de données
-
 ### LinqToSQL
 
 LinqToSQL est un outil précieux pour les développeurs .NET qui permet de simplifier l'accès, d'interroger et de manipuler des données et le développement d'applications web et de bureau. C'est un **ORM (Object-Relational Mapping)**. Il offre une syntaxe intuitive, une grande flexibilité et une intégration transparente avec le framework .NET. Bien qu'il présente quelques limitations, il reste une option efficace pour de nombreux cas d'utilisation courants.
 
 ### Autres framework
-
 A noter qu'il existe d'autre framework comme **Entity Framework**, **NHibernate** ou **Dapper**.
 
 ## Sources
