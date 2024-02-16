@@ -6,7 +6,7 @@ tags:
   - Git
 ---
 
-![[Pasted image 20240215211949.png|Pasted image 20240215211949.png]]
+![[Pasted image 20240215211949.png|200]]
 
 ## Description
 
@@ -28,7 +28,7 @@ Cette commande va créer les fichiers _id_rsa_ and _id_rsa.pub_.
 Il faut ensuite ouvrir le fichier id_rsa.pub (dans C:\Users\_Utilisateur_\.ssh\) et copier tout le contenu (la ligne entière) puis l’ajouter dans les propriétés du comptes github.
 
 ## Utilisation
-![[Pasted image 20240215213043.png|Pasted image 20240215213043.png]]![[Pasted image 20240215213048.png|Pasted image 20240215213048.png]]
+![[Pasted image 20240215213043.png|450]]![[Pasted image 20240215213048.png|450]]
 
 Créez tout de suite un gitignore pour votre projet, cela évitera de “polluer” votre répo avec des fichiers non pertinents, diminuer les risques de problèmes de configuration.
 
@@ -226,9 +226,9 @@ La commande _git checkout permet également de revenir dans l’état du commit
 git checkout <commit> // revenir à l’état du commit choisi
 
 git checkout HEAD // revenir à la dernière version
-
-//ici normand n’a pas l’air de fonctionner -> Voir si correct en VSCode
 ```
+
+[[todo|todo]] n’a pas l’air de fonctionner -> Voir si correct en VSCode
 
 La commande reset permet de revenir dans l’état d’un commit précédent puis de continuer le développement depuis cette version (le dernier commit de la branche devient celui du reset). Attention cette commande écrase tous les autre commits et est dangereuse. Il faut donc être sûr de ce qu’on fait et l’utiliser en dernier recours (Préférer la méthode **0** **1.6.11.2**).
 ```
@@ -242,7 +242,7 @@ error: failed to push some refs
 
 Dans ce cas, il faut annuler les commits souhaités en appliquant l’inverse via la commande **git revert.** Voir le chapitre suivant (**1.6.11.1** **Revenir dans l’état inverse d’un commit** ) pour plus d’informations. Voici la différence entre un checkout et un reset en image :
 
-![[Pasted image 20240215213420.png|Pasted image 20240215213420.png]]![[Pasted image 20240215213423.png|Pasted image 20240215213423.png]]
+![[Pasted image 20240215213420.png|435]]![[Pasted image 20240215213423.png|435]]
 
 #### Revenir dans l’état inverse d’un commit (git revert)
 ```
