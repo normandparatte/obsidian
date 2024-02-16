@@ -16,14 +16,12 @@ Miro -> Whiteboard
 Recuva -> Récupération de fichiers
 Geek Uninstaller -> Désinstallation sans trace
 Super f4 -> Kill des processus
-QTTabBar -> Onglet explorateur windows
 ShutUp10 -> Configuration W10 (
 - Paramètres recommandés et plutôt
 - Réactiver historiques du presse-papier
 - Réactiver micro (app accès microphone et app accès caméra)
 )
-
-NZXT CAM -> Monitoring pc (Hwmonitor existe aussi)
+NZXT CAM ou Hwmonitor -> Monitoring pc
 HWInfo -> Monitoring plus complet
 Msi afterburner -> Overclock de gpu, courbe ventilation gpu
 Armoury crate -> Gestion de la CM Asus (couleurs)
@@ -59,4 +57,5 @@ Restaurer l'ancien menu contextuel sur clic droit (
 
 Souris : Désactiver l'amélioration du pointeur
 
-Si saccades vidéos : https://www.videohelp.com/software/mpv-media-player
+VLC -> Lecteur vidéo
+Si saccades vidéos éventuellement : https://www.videohelp.com/software/mpv-media-player

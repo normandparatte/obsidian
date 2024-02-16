@@ -22,7 +22,7 @@ L'API Options est centrée sur le concept d'une "instance de composant" tandis q
 Pour l'apprentissage, choisissez le style qui vous semble le plus facile à comprendre. La plupart des concepts fondamentaux sont partagés entre les deux styles. Vous pourrez toujours choisir l'autre style plus tard.
 
 Exemple Composition API :
-```html
+```js
 <script setup>
 import { ref } from 'vue'
 
@@ -48,7 +48,7 @@ function removeTodo(todo) {
 ```
 
 Exemple Options API pour le même fonctionnement :
-```
+```js
 <script>
 let id = 0
 
@@ -107,7 +107,7 @@ A noter que la valeur (.value) est automatiquement récupérée dans le template
 Nous ne devons pas faire : ~~{{ message.value }}~~
 
 Il est également possible d'utiliser une expression javascript :
-```html
+```js
 {{ message.split('').reverse().join('') }}
 ```
 
