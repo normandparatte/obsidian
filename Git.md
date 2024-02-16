@@ -6,7 +6,7 @@ tags:
   - Git
 ---
 
-![[Pasted image 20240215211949.png|Pasted image 20240215211949.png]]
+![[Pasted image 20240215211949.png|200]]
 
 ## Description
 
@@ -28,7 +28,7 @@ Cette commande va créer les fichiers _id_rsa_ and _id_rsa.pub_.
 Il faut ensuite ouvrir le fichier id_rsa.pub (dans C:\Users\_Utilisateur_\.ssh\) et copier tout le contenu (la ligne entière) puis l’ajouter dans les propriétés du comptes github.
 
 ## Utilisation
-![[Pasted image 20240215213043.png|Pasted image 20240215213043.png]]![[Pasted image 20240215213048.png|Pasted image 20240215213048.png]]
+![[Pasted image 20240215213043.png|450]]![[Pasted image 20240215213048.png|450]]
 
 Créez tout de suite un gitignore pour votre projet, cela évitera de “polluer” votre répo avec des fichiers non pertinents, diminuer les risques de problèmes de configuration.
 
