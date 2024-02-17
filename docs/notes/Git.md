@@ -12,6 +12,7 @@ tags:
 
 Git est un logiciel de gestion de versions décentralisé. C'est un logiciel libre créé par Linus Torvalds, auteur du noyau Linux, et distribué selon les termes de la licence publique générale GNU version 2. Il s’agit du logiciel de gestion de versions le plus populaire qui est utilisé par plus de douze millions de personnes. Git ne repose pas sur un serveur centralisé. C'est un outil de bas niveau, qui se veut simple et performant.
 
+
 ## Installation et configuration
 Le plus simple est d’installer directement github car ce dernier va automatiquement configurer ssh avec la bonne adresse mail.
 
