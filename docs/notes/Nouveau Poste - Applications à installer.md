@@ -1,5 +1,5 @@
 ---
-share: "true"
+share: true
 tags:
   - Informatique
   - Applications
@@ -47,9 +47,9 @@ tags:
 - VLC
 
 ### Configuration
-Souris : Désactiver l'amélioration du pointeur
-Thème Windows Sombre
-Thème Applications Clair
+- Souris : Désactiver l'amélioration du pointeur
+- Thème Windows Sombre
+- Thème Applications Clair
 
 ## Poste perso
 - Proton Drive
@@ -58,13 +58,13 @@ Thème Applications Clair
 - Steam
 
 ## Poste Bureau - Applications supplémentaires
-Brother iPrint&Scan
-VoiceMeeter Potato
+- Brother iPrint&Scan
+- VoiceMeeter Potato
 
 ## ADJ - Applications supplémentaires
-Banana comptabilité+ / banana 10 
-Eclipse
-Scene builder
+- Banana comptabilité+ / banana 10 
+- Eclipse
+- Scene builder
 
 ## Divtec - Applications supplémentaires
-ZoomIt
+- ZoomIt
