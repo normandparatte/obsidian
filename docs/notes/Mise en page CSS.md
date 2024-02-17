@@ -1,5 +1,5 @@
 ---
-share: "true"
+share: true
 tags:
   - Informatique
   - Développement
@@ -10,7 +10,7 @@ tags:
 ## Propriété display
 Il est possible de changer le type d'un élément vers un autre (inline ou block).
 Par exemple pour un lien qui est normalement de type inline, nous pourrions le définir de type block. voici le code css relatif :
-```html
+```css
 a {
     display: block;
 }
@@ -22,7 +22,7 @@ Il est également possible d'attribuer le display **inline-block** afin que l'é
 
 ### none (cacher un élément)
 Il est également possible de cacher un élément en attribuant le display none. Dans cet exemple les div avec la classe "secret" ne seront pas affichées : 
-```html
+```css
 div.secret {
     display: none;
 }
@@ -41,7 +41,7 @@ Quatre propriétés CSS permettent de définir le décalage depuis le point d'or
 - bottom
 
 Par exemple, voici le code pour décaler les liens depuis le haut et la gauche (donc contre le bas et la droite) :
-```html
+```css
 a {
     position: relative;
     top: 6px;
@@ -52,7 +52,7 @@ a {
 ### Positionnement absolu (position: absolute)
 Le positionnement absolu permet de placer un élément n'importe où sur la page.
 Par exemple ce code, affichera le lien en haut à gauche de la page :
-```html
+```css
 a {
     position: absolute;
     top: 6px;
@@ -75,7 +75,7 @@ Source : https://developer.mozilla.org/fr/docs/Web/CSS/unset
 Le principe est le même que pour le positionnement absolu à l'exception que l'élément reste figé au même endroit même si on descend plus bas dans la page.
 
 Voici un code pour exemple :
-```html
+```css
 .sticky {
   position: sticky;
   background-color: #C2B0F9;
@@ -102,7 +102,7 @@ L'élément ayant la valeur de z-index la **plus élevée** sera placé **par-de
 Par exemple, voici trois éléments en position absolute (par rapport au conteneur comme il a lui-même un attribut position).
 Dans cet exemple, l'élément trois est placé en fond, suivi de deux et pour finir un est au premier plan :
 
-```html
+```css
 .conteneur {
     position: relative;
     height: 300px;
