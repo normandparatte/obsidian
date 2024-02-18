@@ -5,10 +5,9 @@ tags:
   - Développement
   - Git
 ---
-
-![[Pasted image 20240215211949.png|200]]
-
+# Git
 ## Description
+![[Pasted image 20240215211949.png|200]]
 
 Git est un logiciel de gestion de versions décentralisé. C'est un logiciel libre créé par Linus Torvalds, auteur du noyau Linux, et distribué selon les termes de la licence publique générale GNU version 2. Il s’agit du logiciel de gestion de versions le plus populaire qui est utilisé par plus de douze millions de personnes. Git ne repose pas sur un serveur centralisé. C'est un outil de bas niveau, qui se veut simple et performant.
 
@@ -51,7 +50,7 @@ Il peut aussi y avoir des branches d’intégrations afin de réunir des feature
 
 ![[Pasted image 20240215213154.png|Pasted image 20240215213154.png]]
 
-Ne pas utiliser Release mais le reste peut être utilisé. Develop est utile car Master pourrait par exemple être déployé automatiquement. Une branche normandTests peut aussi servir pour intégrer plusieurs fonctionnalités ensemble ou faire des tests mais elle ne sera jamais mergée vers d’autres branches.
+Dans ma configuration idéale, ne pas utiliser Release mais le reste peut être utilisé. Develop est utile car Master pourrait par exemple être déployé automatiquement. Une branche normandTests peut aussi servir pour tenter d'intégrer plusieurs fonctionnalités ensemble ou faire des tests mais elle ne sera jamais mergée vers d’autres branches.
 
 ## Gitignore
 Il est possible d’exclure des fichiers de votre dépôt Git avec gitignore.
@@ -60,7 +59,7 @@ Le plus simple est de le faire localement en créant un fichier .gitignore au se
 
 La plupart du temps ce fichier est créé à la base du dépôt. Vous avez la possibilité d’en créer à n’importe quel niveau de votre projet mais cela est fortement déconseillé. Le fichier .gitignore fait partie du projet, il sera donc partager avec les autres contributeurs.
 
-Cette méthode est utile pour demander à ignorer les fichiers en liens avec le projet, par exemples : les builds ou encore les fichiers compilés en lien avec le langage utilisé.
+Cette méthode est utile pour demander à ignorer les fichiers en liens avec le projet, par exemple : les builds ou encore les fichiers compilés en lien avec le langage utilisé.
 
 Exemple d’un fichier gitignore pour un petit projet :
 ```
@@ -228,9 +227,9 @@ git checkout <commit> // revenir à l’état du commit choisi
 git checkout HEAD // revenir à la dernière version
 ```
 
-[[todo|todo]] n’a pas l’air de fonctionner -> Voir si correct en VSCode
+[[To do|To do]] n’a pas l’air de fonctionner -> Voir si correct en VSCode
 
-La commande reset permet de revenir dans l’état d’un commit précédent puis de continuer le développement depuis cette version (le dernier commit de la branche devient celui du reset). Attention cette commande écrase tous les autre commits et est dangereuse. Il faut donc être sûr de ce qu’on fait et l’utiliser en dernier recours (Préférer la méthode **0** **1.6.11.2**).
+La commande reset permet de revenir dans l’état d’un commit précédent puis de continuer le développement depuis cette version (le dernier commit de la branche devient celui du reset). Attention cette commande écrase tous les autre commits et est dangereuse. Il faut donc être sûr de ce qu’on fait et l’utiliser en dernier recours (Préférer la méthode Revenir dans l’état complet d’un commit précédent- git checkout)
 ```
 git reset <commit>
 ```
@@ -240,7 +239,7 @@ La commande reset est utile du moment que l’on n’a pas envoyé les modificat
 error: failed to push some refs
 ```
 
-Dans ce cas, il faut annuler les commits souhaités en appliquant l’inverse via la commande **git revert.** Voir le chapitre suivant (**1.6.11.1** **Revenir dans l’état inverse d’un commit** ) pour plus d’informations. Voici la différence entre un checkout et un reset en image :
+Dans ce cas, il faut annuler les commits souhaités en appliquant l’inverse via la commande **git revert.** Voir le chapitre suivant (Revenir dans l’état inverse d'un commit - git revert) pour plus d’informations. Voici la différence entre un checkout et un reset en image :
 
 ![[Pasted image 20240215213420.png|435]]![[Pasted image 20240215213423.png|435]]
 
