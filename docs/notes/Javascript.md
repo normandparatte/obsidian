@@ -6,8 +6,8 @@ tags:
   - Web
   - Javascript
 ---
-[[todo|todo]] faire le tour du cours gitbook
-[[todo|todo]] JSHint
+[[To do|To do]] faire le tour du cours gitbook
+[[To do|To do]] JSHint
 
 ## Déclaration
 Dans une balise script.
