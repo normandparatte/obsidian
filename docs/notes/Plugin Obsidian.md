@@ -15,7 +15,9 @@ Liste des plugins utiles Obsidian :
 - Recent Files -> Icone pour afficher les dernières notes consultées
 - Multi-properties -> Clic droit pour ajouter des propriétés à plusieurs notes en même temps
 - Tasks -> Gestion des tâches
- 
+- Iconize -> Ajouter des icones dans obsidian
+
 ## Dataview
 Liste des commandes simples :
 https://s-blu.github.io/obsidian_dataview_example_vault/20%20Dataview%20Queries/Basic%20List%20Queries/
+Metadata des notes : https://blacksmithgu.github.io/obsidian-dataview/annotation/metadata-pages/
