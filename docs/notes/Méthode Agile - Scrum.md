@@ -71,13 +71,16 @@ Accompagne l'organisation dans son adoption Scrum.
 
 ### Les différentes activités selon les rôles
 ![[Pasted image 20240322115902.png|Pasted image 20240322115902.png]]
-
 ## Products Backlog
+
+Exemple de tableau Kanban pour utilisation de Scrum :
+![[Pasted image 20240322122521.png|Pasted image 20240322122521.png]]
+
 ![[Pasted image 20240322120228.png|Pasted image 20240322120228.png]]
 
+### User stories
 Toutes les spécifications du produits sous forme de user stories.
 
-### User stories
 ![[Pasted image 20240322120255.png|Pasted image 20240322120255.png]]
 
 ![[Pasted image 20240322120340.png|Pasted image 20240322120340.png]]
