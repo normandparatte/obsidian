@@ -18,6 +18,8 @@ tags:
 ---
 # Méthode Agile - Scrum
 
+Le coeur du projet est le produit et non pas la gestion de projet.
+
 ![[Pasted image 20240322114735.png|Pasted image 20240322114735.png]]
 
 ![[Pasted image 20240322114846.png|Pasted image 20240322114846.png]]
@@ -41,13 +43,19 @@ Priorisation des besoins
 Optimisation de la valeur de travail
 
 ### Dev Team
+Ultra-colaboratif même pour une seule user story. Il faut peut-être la découper en sous-tâche et se les répartir.
 Auto-organisé
 Pluridisicplinaire
 Pas de hiérarchie ni de titre
 Pas de sous-équipe
 Responsable dans son ensemble
+Plus impliqué que dans les autres méthodes de projets linéaires.
 
 ### Scrum Master (SM)
+N'est pas un chef de projet !
+Fait le pont entre la dev team et le Product Owner.
+Organise les séances, regarde si tout se passe bien, fait respecter le cadre agile.
+
 Compréhension et application de scrum
 - Valeurs
 - Pratiques
@@ -85,6 +93,8 @@ Toutes les spécifications du produits sous forme de user stories.
 
 ![[Pasted image 20240322120340.png|Pasted image 20240322120340.png]]
 
+Concrètement le product backlog évolue souvent selon les demandes clients et ne se vide vraiment jamais.
+
 ## Sprint planning meeting et Sprint backlog
 ![[Pasted image 20240322120444.png|Pasted image 20240322120444.png]]
 
@@ -98,9 +108,11 @@ Les tâches choisies viennent dans le sprint backlog :
 
 ### Daily Scrum
 ![[Pasted image 20240322121306.png|Pasted image 20240322121306.png]]
-
 ![[Pasted image 20240322121312.png|Pasted image 20240322121312.png]]
 ![[Pasted image 20240322121347.png|Pasted image 20240322121347.png]]
+
+Tout le monde sait ou on en est dans le développement et on a une vision d'ensemble, donc on peut s'apporter mutuellement des solutions.
+On règle les problèmes plus tard que dans le daily scrum.
 
 ## Fin du sprint
 ### Sprint Review
@@ -129,3 +141,4 @@ Amélioration continue (PO et Dev).
 
 ## Sources
 Support HE-ARC, D. Rosat
+Présentation EMT, Jérôme Raval
